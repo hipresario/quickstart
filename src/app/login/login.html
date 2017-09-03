@@ -1,0 +1,14 @@
+<div>
+    <form>
+        <div>
+         Username: <input type="text" [(ngModel)]="user.username" name="username">
+        </div>
+        <div>
+        Password: <input type="password" [(ngModel)]="user.password" name="password">
+        </div>
+        <div>
+            <input type="button" value="Cancel">
+            <input type="submit" value="Login" (click)="login()">            
+        </div>
+    </form>
+</div>
